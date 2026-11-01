@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التعريف بالمواقع الإلكترونية | عرض تقديمي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- أزرار التنقل العلوية -->
+  <header class="nav-bar">
+    <button class="nav-btn" id="prevBtn" type="button" aria-label="الشريحة السابقة">
+      <span class="arrow">→</span> السابق
+    </button>
+    <div class="nav-title">التعريف بالمواقع الإلكترونية</div>
+    <button class="nav-btn" id="nextBtn" type="button" aria-label="الشريحة التالية">
+      التالي <span class="arrow">←</span>
+    </button>
+  </header>
+
+  <main class="slides-viewport">
+
+    <!-- الشريحة 1: مقدمة -->
+    <section class="slide active" id="slide-1" aria-hidden="false">
+      <div class="slide-inner intro-layout">
+        <div class="intro-text">
+          <span class="badge">عرض تقديمي تعليمي</span>
+          <h1 class="main-title">المواقع الإلكترونية</h1>
+          <p class="tagline">بوابتك إلى العالم الرقمي</p>
+          <p class="desc">
+            تساعدنا المواقع الإلكترونية على الوصول إلى المعلومات والخدمات
+            والتواصل مع العالم عبر الإنترنت.
+          </p>
+        </div>
+        <div class="intro-art" aria-hidden="true">
+          <div class="globe">
+            <svg viewBox="0 0 200 200" width="100%" height="100%" role="img" aria-label="صورة تعبيرية عن العالم الرقمي">
+              <circle cx="100" cy="100" r="78" fill="#EAF2FB" stroke="#2457A7" stroke-width="4"/>
+              <ellipse cx="100" cy="100" rx="36" ry="78" fill="none" stroke="#2457A7" stroke-width="3" opacity="0.6"/>
+              <ellipse cx="100" cy="100" rx="64" ry="28" fill="none" stroke="#2457A7" stroke-width="3" opacity="0.6"/>
+              <line x1="22" y1="100" x2="178" y2="100" stroke="#2457A7" stroke-width="3" opacity="0.6"/>
+              <line x1="100" y1="22" x2="100" y2="178" stroke="#2457A7" stroke-width="3" opacity="0.6"/>
+              <circle cx="34" cy="72" r="9" fill="#F97316"/>
+              <circle cx="160" cy="128" r="9" fill="#2FB77C"/>
+              <circle cx="128" cy="40" r="7" fill="#2457A7"/>
+              <circle cx="66" cy="152" r="7" fill="#F59E0B"/>
+            </svg>
+          </div>
+          <div class="float-chip chip-1">🌐 الإنترنت</div>
+          <div class="float-chip chip-2">💻 متصفح</div>
+          <div class="float-chip chip-3">🔗 روابط</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الشريحة 2: ما الموقع الإلكتروني؟ -->
+    <section class="slide" id="slide-2" aria-hidden="true">
+      <div class="slide-inner">
+        <h2 class="slide-title">ما الموقع الإلكتروني؟</h2>
+        <p class="definition-card">
+          الموقع الإلكتروني مجموعة من صفحات الويب المترابطة التي يمكن الوصول
+          إليها عبر الإنترنت باستخدام متصفح.
+        </p>
+        <h3 class="sub-title">قد يحتوي الموقع على:</h3>
+        <ul class="content-list">
+          <li><span class="dot"></span> نصوص </li>
+          <li><span class="dot"></span> صور</li>
+          <li><span class="dot"></span> روابط</li>
+          <li><span class="dot"></span> مقاطع مرئية</li>
+          <li><span class="dot"></span> عناصر تفاعلية</li>
+        </ul>
+        <div class="two-cards">
+          <article class="mini-card">
+            <div class="mini-icon">🎓</div>
+            <h4>موقع تعليمي</h4>
+            <p>منصة تحتوي على دروس ودورات تشرح المواد للطلاب، مثل موقع مدرسة أو جامعة.</p>
+          </article>
+          <article class="mini-card">
+            <div class="mini-icon">🛒</div>
+            <h4>متجر إلكتروني</h4>
+            <p>موقع يعرض المنتجات بالصور والأسعار، ويتيح إضافتها إلى سلة الشراء ودفعها إلكترونيًا.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- الشريحة 3: أنواع المواقع -->
+    <section class="slide" id="slide-3" aria-hidden="true">
+      <div class="slide-inner">
+        <h2 class="slide-title">أنواع المواقع الإلكترونية</h2>
+        <div class="types-grid">
+          <article class="type-card">
+            <div class="type-icon icon-blue">📚</div>
+            <h3>المواقع التعليمية</h3>
+            <p>تساعد على التعلم والوصول إلى الدروس.</p>
+          </article>
+          <article class="type-card">
+            <div class="type-icon icon-orange">🛍️</div>
+            <h3>المتاجر الإلكترونية</h3>
+            <p>تعرض المنتجات وتتيح شراءها عبر الإنترنت.</p>
+          </article>
+          <article class="type-card">
+            <div class="type-icon icon-green">📰</div>
+            <h3>المواقع الإخبارية</h3>
+            <p>تنشر الأخبار والمستجدات.</p>
+          </article>
+          <article class="type-card">
+            <div class="type-icon icon-amber">👤</div>
+            <h3>المواقع الشخصية والتعريفية</h3>
+            <p>تعرض معلومات الأشخاص وأعمالهم.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- الشريحة 4: أهمية المواقع -->
+    <section class="slide" id="slide-4" aria-hidden="true">
+      <div class="slide-inner">
+        <h2 class="slide-title">لماذا تُعد المواقع الإلكترونية مهمة؟</h2>
+        <ul class="benefits-list">
+          <li class="benefit-item">
+            <span class="benefit-icon">⚡</span>
+            <div><h3>الوصول إلى المعلومات بسرعة</h3><p>البحث والوصول إلى ما نحتاجه في ثوانٍ.</p></div>
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-icon">🎓</span>
+            <div><h3>التعلم عن بُعد واكتساب المهارات</h3><p>دورات ودروس متاحة في أي وقت ومن أي مكان.</p></div>
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-icon">🏦</span>
+            <div><h3>التسوق والاستفادة من الخدمات الإلكترونية</h3><p>شراء المنتجات واستخدام الخدمات الحكومية والبنكية.</p></div>
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-icon">🤝</span>
+            <div><h3>التواصل والتعريف بالأفراد والمشروعات</h3><p>مشاركة الأعمال والتعريف بالمنتجات والخدمات.</p></div>
+          </li>
+        </ul>
+        <p class="closing-note">«تختصر المواقع الإلكترونية الوقت والجهد، وتفتح أبوابًا جديدة للتعلم والعمل».</p>
+      </div>
+    </section>
+
+    <!-- الشريحة 5: صفات الموقع الناجح -->
+    <section class="slide" id="slide-5" aria-hidden="true">
+      <div class="slide-inner">
+        <h2 class="slide-title">ما صفات الموقع الإلكتروني الناجح؟</h2>
+        <ul class="criteria-list">
+          <li class="criteria-item"><span class="check">✔</span> تصميم واضح وجذاب</li>
+          <li class="criteria-item"><span class="check">✔</span> سهولة الاستخدام والتنقل</li>
+          <li class="criteria-item"><span class="check">✔</span> التوافق مع الجوال والحاسوب</li>
+          <li class="criteria-item"><span class="check">✔</span> سرعة التحميل</li>
+          <li class="criteria-item"><span class="check">✔</span> حماية بيانات المستخدم</li>
+        </ul>
+        <p class="final-note">
+          «أصبحت المواقع الإلكترونية جزءًا أساسيًا من حياتنا اليومية،
+          وأداة مهمة للتعلم والتواصل وتقديم الخدمات».
+        </p>
+        <p class="thanks">شكرًا لكم 🌟</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- أزرار التنقل السفلية ورقم الشريحة -->
+  <footer class="controls">
+    <button class="nav-btn bottom-btn" id="prevBtnBottom" type="button">→ السابق</button>
+    <div class="slide-counter"><span id="currentSlide">1</span> / <span id="totalSlides">5</span></div>
+    <button class="nav-btn bottom-btn" id="nextBtnBottom" type="button">التالي ←</button>
+  </footer>
+
+  <!-- شريط التقدم -->
+  <div class="progress-bar" role="presentation">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+
+  <script src="slides.js"></script>
+</body>
+</html>
